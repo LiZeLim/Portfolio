@@ -178,6 +178,18 @@ const Projects = () => {
                             TypeScript Tailwind CSS Styled-Components HTML & CSS
                             React Next.js Design
                         </StyledPUtility>
+                        <div className="flex">
+                            <div>
+                                <StyledA
+                                    href="https://github.com/LiZeLim/Portfolio"
+                                    aria-label="Github"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Github />
+                                </StyledA>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <Image
