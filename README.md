@@ -1,5 +1,8 @@
 # Guide
 
+## Update
+Repository had to be reset due to some issues.
+
 This is the first iteration of my portfolio. This was built with [Next.js](https://nextjs.org/). I'm always learning, working and updating on new things, so there will be more iterations to this portfolio coming.
 
 ## Installation
