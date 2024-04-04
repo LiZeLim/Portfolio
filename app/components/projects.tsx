@@ -124,54 +124,16 @@ const Projects = () => {
         <StyledSection id="projects">
             <StyledH1 className="text-white">02. Projects</StyledH1>
             <ul>
-                <StyledLi>
+            <StyledLi>
                     <div>
                         <Image
-                            src={"/discord_bot.png"}
+                            src={"/website_preview.png"}
                             width={800}
                             height={800}
-                            alt="Picture of my discord bot"
+                            alt="Picture of my portfolio"
                             className="p-8"
                         />
                     </div>
-                    <div>
-                        <StyledH2 className="text-coral text-center font-bold py-6">
-                            F1 Web scraping Discord bot
-                        </StyledH2>
-                        <StyledP>
-                            The Discord Bot application was created through the{" "}
-                            <OrangeHighlight>Discord.py API</OrangeHighlight> in
-                            Python. Utilizes web scraping through the{" "}
-                            <OrangeHighlight>BeautifulSoup4</OrangeHighlight>{" "}
-                            library in conjunction with{" "}
-                            <OrangeHighlight>
-                                Regular Expression Patterns{" "}
-                            </OrangeHighlight>
-                            to find, extract, and finally display results of
-                            current and previous seasons of Formula 1.
-                            Additionally, to better extract and deal with data,
-                            the <OrangeHighlight>NumPy</OrangeHighlight> python
-                            library was utilized to better deal with displaying
-                            data.
-                        </StyledP>
-                        <StyledPUtility>
-                            Python NumPy BeautifulSoup4 REGEX Discord
-                        </StyledPUtility>
-                        <div className="flex justify-end">
-                            <div>
-                                <StyledA
-                                    href="https://github.com/LiZeLim/F1DiscordBot"
-                                    aria-label="Github"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Github />
-                                </StyledA>
-                            </div>
-                        </div>
-                    </div>
-                </StyledLi>
-                <StyledLi>
                     <div>
                         <StyledH2 className="text-coral text-center font-bold py-6">
                             This Website
@@ -197,7 +159,7 @@ const Projects = () => {
                             TypeScript Tailwind CSS Styled-Components HTML & CSS
                             React Next.js Design
                         </StyledPUtility>
-                        <div className="flex">
+                        <div className="flex justify-end">
                             <div>
                                 <StyledA
                                     href="https://github.com/LiZeLim/Portfolio"
@@ -210,16 +172,55 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </StyledLi>
+                <StyledLi>
+                    <div>
+                        <StyledH2 className="text-coral text-center font-bold py-6">
+                            F1 Web scraping Discord bot
+                        </StyledH2>
+                        <StyledP>
+                            The Discord Bot application was created through the{" "}
+                            <OrangeHighlight>Discord.py API</OrangeHighlight> in
+                            Python. Utilizes web scraping through the{" "}
+                            <OrangeHighlight>BeautifulSoup4</OrangeHighlight>{" "}
+                            library in conjunction with{" "}
+                            <OrangeHighlight>
+                                Regular Expression Patterns{" "}
+                            </OrangeHighlight>
+                            to find, extract, and finally display results of
+                            current and previous seasons of Formula 1.
+                            Additionally, to better extract and deal with data,
+                            the <OrangeHighlight>NumPy</OrangeHighlight> python
+                            library was utilized to better deal with displaying
+                            data.
+                        </StyledP>
+                        <StyledPUtility>
+                            Python NumPy BeautifulSoup4 REGEX Discord
+                        </StyledPUtility>
+                        <div className="flex">
+                            <div>
+                                <StyledA
+                                    href="https://github.com/LiZeLim/F1DiscordBot"
+                                    aria-label="Github"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Github />
+                                </StyledA>
+                            </div>
+                        </div>
+                    </div>
                     <div>
                         <Image
-                            src={"/website_preview.png"}
+                            src={"/discord_bot.png"}
                             width={800}
                             height={800}
-                            alt="Picture of my portfolio"
+                            alt="Picture of my discord bot"
                             className="p-8"
                         />
                     </div>
                 </StyledLi>
+    
                 <StyledLi>
                     <div>
                         <Image
