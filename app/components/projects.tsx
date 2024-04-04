@@ -178,7 +178,7 @@ const Projects = () => {
                         </StyledH2>
                         <StyledP>
                             This was the first time I created a website, it
-                             helped me to better learn and use
+                            helped me to better learn and use
                             <OrangeHighlight>
                                 {" "}
                                 TypeScript, HTML, CSS, and React

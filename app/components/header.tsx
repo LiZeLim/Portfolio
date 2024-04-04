@@ -38,7 +38,7 @@ const StyledLink = styled(Link)`
         transform-origin: center;
         transition: transform 0.35s ease-in-out;
     }
-    
+
     &:hover::after {
         transform: scaleX(1);
         transform-origin: center;

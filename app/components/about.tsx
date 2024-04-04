@@ -109,9 +109,91 @@ const StyledLineReversed = styled.div`
     }
 `;
 
+const StyledLine2 = styled.div`
+    border-bottom: 2px solid #e7e7e7;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: throw 7s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+    transition: transform 10s linear;
+
+    @keyframes throw {
+        0% {
+            width: 0%;
+            transform: scaleX(0);
+        }
+
+        50% {
+            width: 100%;
+            transform: scaleX(0.5);
+        }
+
+        100% {
+            width: 0%;
+            transform: scaleX(0);
+        }
+    }
+`;
+
+const StyledLineReversed2 = styled.div`
+    position: absolute;
+    border-bottom: 2px solid #e7e7e7;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: throwReversed 14s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+    transition: transform 10s linear;
+
+    @keyframes throwReversed {
+        0% {
+            width: 0;
+            left: 100%;
+            transform: scaleX(0);
+        }
+
+        50% {
+            left: 0%;
+            width: 100%;
+            transform: scaleX(0.5);
+        }
+
+        100% {
+            width: 0;
+            left: 100%;
+            transform: scaleX(0);
+        }
+    }
+`;
+
+const StyledLine3 = styled.div`
+    border-bottom: 2px solid #e7e7e7;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: throw 19s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;
+    transition: transform 10s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+    @keyframes throw {
+        0% {
+            width: 0%;
+            transform: scaleX(0);
+        }
+
+        50% {
+            width: 100%;
+            transform: scaleX(0.5);
+        }
+
+        100% {
+            width: 0%;
+            transform: scaleX(0);
+        }
+    }
+`;
+
 const StyledLi = styled.li`
     font-size: 18px;
-`
+`;
 
 const About = () => {
     return (
@@ -133,7 +215,16 @@ const About = () => {
                     communities.
                 </StyledP>
             </div>
+            <StyledLineContainer>
+                <StyledLineReversed2></StyledLineReversed2>
+            </StyledLineContainer>
+            <StyledLineContainer>
+                <StyledLine2></StyledLine2>
+            </StyledLineContainer>
             <StyledH2>My Tool kit</StyledH2>
+            <StyledLineContainer>
+                <StyledLine3></StyledLine3>
+            </StyledLineContainer>
             <StyledGridDiv>
                 <div>
                     <ol>
