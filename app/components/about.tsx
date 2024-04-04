@@ -109,6 +109,10 @@ const StyledLineReversed = styled.div`
     }
 `;
 
+const StyledLi = styled.li`
+    font-size: 18px;
+`
+
 const About = () => {
     return (
         <StyledSection id="about">
@@ -133,18 +137,18 @@ const About = () => {
             <StyledGridDiv>
                 <div>
                     <ol>
-                        <li>&bull; Communication</li>
-                        <li>&bull; Teamwork</li>
-                        <li>&bull; Leadership</li>
-                        <li>&bull; Time Management</li>
+                        <StyledLi>&bull; Communication</StyledLi>
+                        <StyledLi>&bull; Teamwork</StyledLi>
+                        <StyledLi>&bull; Leadership</StyledLi>
+                        <StyledLi>&bull; Time Management</StyledLi>
                     </ol>
                 </div>
                 <div>
                     <ol>
-                        <li>&bull; Java</li>
-                        <li>&bull; Python</li>
-                        <li>&bull; HTML & CSS</li>
-                        <li>&bull; Machine Learning</li>
+                        <StyledLi>&bull; Java</StyledLi>
+                        <StyledLi>&bull; Python</StyledLi>
+                        <StyledLi>&bull; HTML & CSS</StyledLi>
+                        <StyledLi>&bull; Machine Learning</StyledLi>
                     </ol>
                 </div>
             </StyledGridDiv>

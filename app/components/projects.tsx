@@ -63,7 +63,6 @@ const StyledP = styled.p`
     color: white;
     border-radius: 4px;
     font-size: 18px;
-    font-weight: 600px;
 
     &:hover {
         box-shadow: 0 10px 15px -10px black;
@@ -72,10 +71,30 @@ const StyledP = styled.p`
 
 const StyledPUtility = styled.p`
     font-size: 16px;
-    font-weight: 600px;
-    padding: 20px;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin: 0.5rem;
     color: #ff8175;
     text-align: center;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0%;
+        left: 0;
+        background-color: #ffbf47;
+        transform-origin: center;
+        transition: transform 0.35s ease-in-out;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
 `;
 
 const StyledA = styled.a`
@@ -230,7 +249,7 @@ const Projects = () => {
                             patterns.
                         </StyledP>
                         <StyledPUtility>
-                            GoF Grasp OOD OOP Java JavaFX
+                            GoF Grasp OOD OOP JavaFX
                         </StyledPUtility>
                     </div>
                 </StyledLi>

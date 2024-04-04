@@ -38,21 +38,10 @@ const StyledLink = styled(Link)`
         transform-origin: center;
         transition: transform 0.35s ease-in-out;
     }
+    
     &:hover::after {
         transform: scaleX(1);
         transform-origin: center;
-    }
-`;
-
-const StyledLi2 = styled.li`
-    padding: 0.5rem;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    font-size: 18px;
-
-    &:hover {
-        box-shadow: 0 10px 10px -10px black;
     }
 `;
 
