@@ -22,6 +22,7 @@ const StyledSection = styled.section`
 
 const StyledH1 = styled.h1`
     display: flex;
+    justify-content: center;
     padding: 0px 10%;
     font-size: clamp(35px, 6vw, 60px);
     margin: 15px 0px 50px;

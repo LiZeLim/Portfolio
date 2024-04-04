@@ -25,7 +25,7 @@ const StyledH1 = styled.h1`
     padding: 0px 10%;
     font-size: clamp(35px, 6vw, 60px);
     margin: 15px 0px 50px;
-    justify-content: flex-end;
+    justify-content: center;
 `;
 
 const StyledH2 = styled.h2`
@@ -79,12 +79,12 @@ const StyledP = styled.p`
     &:hover {
         background-color: #f1f1ee;
     }
-`
+`;
 
 const Contact = () => {
     return (
         <StyledSection id="contact">
-            <StyledH1>03. Contact</StyledH1>
+            <StyledH1>03. Contacts</StyledH1>
             <StyledH2>Reach out.</StyledH2>
             <StyledDiv>
                 Currently, I'm looking for a Software Engineering internship. If
