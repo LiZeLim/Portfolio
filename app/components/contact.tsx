@@ -34,10 +34,11 @@ const StyledH2 = styled.h2`
     text-align: center;
 `;
 
-const StyledP = styled.p`
+const StyledDiv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -69,17 +70,26 @@ const StyledA = styled.a`
     }
 `;
 
+const StyledP = styled.p`
+    padding: 1vw;
+    margin: 1vw;
+    font-weight: 500;
+    &:hover {
+        background-color: #f1f1ee;
+    }
+`
+
 const Contact = () => {
     return (
         <StyledSection id="contact">
             <StyledH1>03. Contact</StyledH1>
             <StyledH2>Reach out.</StyledH2>
-            <StyledP>
+            <StyledDiv>
                 Currently, I'm looking for a Software Engineering internship. If
                 you have any opportunities available or know someone who does,
                 don't hesitate to contact me as my inbox is always open.
-            </StyledP>
-            <StyledP>
+            </StyledDiv>
+            <StyledDiv>
                 <StyledA
                     href="https://github.com/LiZeLim"
                     aria-label="Github Profile"
@@ -96,7 +106,8 @@ const Contact = () => {
                 >
                     <Linkedin_black />
                 </StyledA>
-            </StyledP>
+                <StyledP>Email: lizelim995@gmail.com</StyledP>
+            </StyledDiv>
         </StyledSection>
     );
 };

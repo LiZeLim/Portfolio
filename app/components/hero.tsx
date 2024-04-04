@@ -2,14 +2,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import styled from "styled-components";
-
-const selfImageStyle = {
-    borderRadius: "50%",
-    borderColor: "white",
-    borderWidth: "4px",
-};
 
 const StyledCircleDiv = styled.div`
     transition: transform 0.3s linear;
@@ -55,6 +48,7 @@ const StyledDiv = styled.div`
         display: block;
         align-items: center;
         justify-content: center;
+        padding: 0px 8vw;
     }
 `;
 
@@ -142,8 +136,8 @@ const Hero = () => {
                             Hello, I'm a penultimate year student at The
                             University of Sydney studying Bachelor of
                             Engineering Honours (Software Engineering). I'm
-                            passionate about anything technology and
-                            design-related.
+                            passionate about learning and improving through all
+                            opportunities technology and design-related.
                         </StyledP>
                         <StyledP className="text-bright-yellow-orange">
                             Additionally, I'm interested in topics such as
