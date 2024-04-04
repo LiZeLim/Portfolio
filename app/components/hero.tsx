@@ -102,9 +102,15 @@ const StyledP = styled.p`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
-    font-size: 18px;
+    font-size: clamp(8px, 18px, 20px);
     /* text-align: justify; */
     max-width: 70%;
+
+    @media screen and (max-width: 1200px) {
+        display: block;
+        max-width: 100%;
+        text-align: justify;
+    }
 `;
 
 const Hero = () => {

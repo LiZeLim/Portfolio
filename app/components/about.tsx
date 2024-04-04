@@ -28,11 +28,8 @@ const StyledGridDiv = styled.div`
     padding: 2vw;
     font-size: 16px;
 
-    @media screen and (max-width: 1200) {
-        display: block;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    @media screen and (max-width: 1200px) {
+        display: inline-block;
     }
 `;
 

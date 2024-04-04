@@ -120,6 +120,14 @@ const OrangeHighlight = styled.span`
     color: #ffbf47;
 `;
 
+const StyledExternal = styled.div`
+    display: flex;
+    
+    @media screen and (max-width: 1200px) {
+        display: inline-block;
+    }
+`;
+
 const Projects = () => {
     return (
         <StyledSection id="projects">
@@ -160,7 +168,7 @@ const Projects = () => {
                             TypeScript Tailwind CSS Styled-Components HTML & CSS
                             React Next.js Design
                         </StyledPUtility>
-                        <div className="flex justify-end">
+                        <StyledExternal className="justify-end">
                             <div>
                                 <StyledA
                                     href="https://github.com/LiZeLim/Portfolio"
@@ -171,7 +179,7 @@ const Projects = () => {
                                     <Github />
                                 </StyledA>
                             </div>
-                        </div>
+                        </StyledExternal>
                     </div>
                 </StyledLi>
                 <StyledLi>
@@ -198,7 +206,7 @@ const Projects = () => {
                         <StyledPUtility>
                             Python NumPy BeautifulSoup4 REGEX Discord
                         </StyledPUtility>
-                        <div className="flex">
+                        <StyledExternal>
                             <div>
                                 <StyledA
                                     href="https://github.com/LiZeLim/F1DiscordBot"
@@ -209,7 +217,7 @@ const Projects = () => {
                                     <Github />
                                 </StyledA>
                             </div>
-                        </div>
+                        </StyledExternal>
                     </div>
                     <div>
                         <Image
