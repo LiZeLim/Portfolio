@@ -109,7 +109,7 @@ const StyledP = styled.p`
     margin-inline-end: 0px;
     unicode-bidi: isolate;
     font-size: 18px;
-    text-align: justify;
+    /* text-align: justify; */
     max-width: 70%;
 `;
 
@@ -141,8 +141,14 @@ const Hero = () => {
                         <StyledP className="text-coral">
                             Hello, I'm a penultimate year student at The
                             University of Sydney studying Bachelor of
-                            Engineering Honours (Software Engineering). My
-                            favorite sport is Formula 1.
+                            Engineering Honours (Software Engineering). I'm
+                            passionate about anything technology and
+                            design-related.
+                        </StyledP>
+                        <StyledP className="text-bright-yellow-orange">
+                            Additionally, I'm interested in topics such as
+                            economics and science. My hobbies are to engage in
+                            exercise and watch Formula 1.
                         </StyledP>
                     </div>
                 </div>

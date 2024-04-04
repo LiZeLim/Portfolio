@@ -121,7 +121,7 @@ const About = () => {
             </StyledLineContainer>
             <div className="py-10">
                 <StyledP>
-                    Hello, I'm a highly motivated and curious person that is
+                    Hello, I'm a highly motivated and curious person who is
                     always ready to challenge technical and complex problems.
                     I'm always keen on learning new topics and willing to give
                     my 110% to everything. I hope through my work, I will one

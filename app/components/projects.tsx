@@ -120,15 +120,15 @@ const Projects = () => {
                             F1 Web scraping Discord bot
                         </StyledH2>
                         <StyledP>
-                            The Discord Bot application created through the{" "}
+                            The Discord Bot application was created through the{" "}
                             <OrangeHighlight>Discord.py API</OrangeHighlight> in
-                            python. Utilizes web scraping through{" "}
+                            Python. Utilizes web scraping through the{" "}
                             <OrangeHighlight>BeautifulSoup4</OrangeHighlight>{" "}
                             library in conjunction with{" "}
                             <OrangeHighlight>
                                 Regular Expression Patterns{" "}
                             </OrangeHighlight>
-                            to find, extract and finally display results of
+                            to find, extract, and finally display results of
                             current and previous seasons of Formula 1.
                             Additionally, to better extract and deal with data,
                             the <OrangeHighlight>NumPy</OrangeHighlight> python
@@ -158,11 +158,11 @@ const Projects = () => {
                             This Website
                         </StyledH2>
                         <StyledP>
-                            This was the first time I've created a website, it
-                            had helped me to to better learn and use
+                            This was the first time I created a website, it
+                             helped me to better learn and use
                             <OrangeHighlight>
                                 {" "}
-                                TypeScript, HTML, CSS and React
+                                TypeScript, HTML, CSS, and React
                             </OrangeHighlight>
                             . This website was created using the{" "}
                             <OrangeHighlight>Next.js framework</OrangeHighlight>
@@ -217,15 +217,15 @@ const Projects = () => {
                         </StyledH2>
                         <StyledP>
                             Taking a Software Construction and Design class, I
-                            learnt about{" "}
+                            learned about{" "}
                             <OrangeHighlight>design patterns</OrangeHighlight>.
                             It has helped me better apply object-oriented design
-                            principals to any implementation of OO languages.
+                            principles to any implementation of OO languages.
                             The recreation of Space Invaders was developed using
                             the <OrangeHighlight>JavaFX</OrangeHighlight>{" "}
                             Library whilst implementing{" "}
                             <OrangeHighlight>
-                                Factory, State, Builder and Strategy
+                                Factory, State, Builder, and Strategy
                             </OrangeHighlight>{" "}
                             patterns.
                         </StyledP>
@@ -240,10 +240,10 @@ const Projects = () => {
                             Wizard Game
                         </StyledH2>
                         <StyledP>
-                            As apart of a university project, I had to create a
+                            As a part of a university project, I had to create a
                             develop a Wizard Arcade game where we followed{" "}
                             <OrangeHighlight>
-                                Object-oriented design principals
+                                Object-oriented design principles
                             </OrangeHighlight>{" "}
                             in Java. Using the{" "}
                             <OrangeHighlight>Gradle</OrangeHighlight> package
@@ -251,7 +251,7 @@ const Projects = () => {
                             <OrangeHighlight>PApplet</OrangeHighlight>, the game
                             is finalized with{" "}
                             <OrangeHighlight>
-                                sounds, animation, and power-ups and additional
+                                sounds, animation, power-ups, and additional
                                 levels
                             </OrangeHighlight>
                             . Any layout of the level could be made using a text
