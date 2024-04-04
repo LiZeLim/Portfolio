@@ -74,6 +74,8 @@ const StyledP = styled.p`
     padding: 1vw;
     margin: 1vw;
     font-weight: 500;
+    border-radius: 4px;
+
     &:hover {
         background-color: #f1f1ee;
     }
