@@ -254,7 +254,7 @@ const Projects = () => {
                             the <OrangeHighlight>JavaFX</OrangeHighlight>{" "}
                             Library whilst implementing{" "}
                             <OrangeHighlight>
-                                Factory, State, Builder, and Strategy
+                                Factory, State, Builder, Strategy, Memento, Observer, etc
                             </OrangeHighlight>{" "}
                             patterns.
                         </StyledP>
